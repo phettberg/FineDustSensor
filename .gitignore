@@ -1,0 +1,20 @@
+# byte compiled files
+__pycache__
+*.py[cod]
+
+# packaging
+.eggs
+*.egg-info
+dist
+schemas
+
+# unit test/coverage
+.coverage
+coverage.xml
+
+#caches
+.pytest_cache
+.cache
+
+# local changes
+.venv

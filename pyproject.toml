@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "particulates"
+version = "0.1.0"
+description = "Sensirion SPS30 sensor measurements"
+authors = ["Patrick Kaulfus <patrick@kaulfus.at>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+shdlc-sps30 = "^0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
